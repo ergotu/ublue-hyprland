@@ -78,15 +78,5 @@ modules:
       - system-config-printer
       - waybar
       - wl-clipboard
-    remove:
-      - firefox # default firefox removed in favor of flatpak
-      - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
-
-  - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      install:
-        - org.mozilla.firefox
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
