@@ -27,6 +27,7 @@ modules:
       - hyprpicker # color picker
       - hyprshot # screenshot util
       - xdg-desktop-portal-hyprland # desktop portal
+      - hypridle
 
       # audio
       - pavucontrol
