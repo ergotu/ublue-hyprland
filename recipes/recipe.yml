@@ -29,7 +29,6 @@ modules:
       - xdg-desktop-portal-hyprland # desktop portal
       - hypridle
       - eww-wayland
-      - rofi-wayland
 
       # audio
       - pavucontrol
@@ -67,6 +66,13 @@ modules:
       - qt6-qtwayland
 
       # other
+      - mvpaper
+      - socat
+      - trayer
+      - nitch
+      - macchina
+      - geticons
+      - nerd-fonts-inter
       - bolt
       - brightnessctl
       - dunst # notification daemon
