@@ -28,6 +28,7 @@ modules:
       - hyprshot # screenshot util
       - xdg-desktop-portal-hyprland # desktop portal
       - hypridle
+      - eww-wayland
 
       # audio
       - pavucontrol
