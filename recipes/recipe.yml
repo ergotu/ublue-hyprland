@@ -29,6 +29,7 @@ modules:
       - xdg-desktop-portal-hyprland # desktop portal
       - hypridle
       - eww-wayland
+      - rofi-wayland
 
       # audio
       - pavucontrol
