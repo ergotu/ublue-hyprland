@@ -1,0 +1,8 @@
+type: rpm-ostree
+install:
+  - duf
+  - eza
+  - fd-find
+  - httpie
+  - procs
+  - tldr

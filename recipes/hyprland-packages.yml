@@ -1,0 +1,18 @@
+type: rpm-ostree
+install:
+  - hyprland
+  - hyprpaper # wallpaper util
+  - hyprpicker # color
+  - hyprshot # screenshot util
+  - hypridle
+  - xdg-desktop-portal-hyprland # desktop portal
+  - brightnessctl
+  - eww-wayland
+  - rofi-wayland
+  - waybar
+  - wl-clipboard
+
+  - dunst
+  - rsms-inter-fonts
+  - mvpaper
+  - socat

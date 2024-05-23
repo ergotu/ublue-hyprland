@@ -22,7 +22,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - recipe.yml
+          - hyprite.yml
           
     steps:
        # the build is fully handled by the reusable github action

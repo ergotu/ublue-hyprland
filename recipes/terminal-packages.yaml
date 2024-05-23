@@ -1,0 +1,4 @@
+type: rpm-ostree
+install:
+  - starship # prompt
+  - fish # shell
