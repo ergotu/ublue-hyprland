@@ -16,5 +16,5 @@ install:
 
   - dunst
   - rsms-inter-fonts
-  - mvpaper
+  - mpvpaper
   - socat
