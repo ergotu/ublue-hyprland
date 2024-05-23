@@ -9,8 +9,13 @@ image-version: 40 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - from-file: common-packages.yml
   - from-file: hyprland-packages.yml
   - from-file: terminal-packages.yml
   - from-file: cli-utils.yml
+
+  - type: files
+    files:
+    - hyprland/usr: /usr
 
   - type: signing
