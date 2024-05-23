@@ -70,7 +70,6 @@ modules:
       - mpvpaper
       - socat
       - macchina
-      - geticons
       - rsms-inter-fonts
       - bolt
       - brightnessctl
