@@ -24,15 +24,7 @@ jobs:
           # !! Add your recipes here 
           - hyprite.yml
           
-    steps:
-      - name: Free space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /opt/ghc
-          sudo rm -rf "/usr/local/share/boost"
-          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
-
-       # the build is fully handled by the reusable github action
+    steps:       # the build is fully handled by the reusable github action
       - name: Build Custom Image
         uses: blue-build/github-action@v1.5
         with:
@@ -40,3 +32,4 @@ jobs:
           cosign_private_key: ${{ secrets.SIGNING_SECRET }}
           registry_token: ${{ github.token }}
           pr_event_number: ${{ github.event.number }}
+          maximize_build_space: true
