@@ -1,4 +1,6 @@
 type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/varlad/macchina/repo/fedora-%OS_VERSION%/varlad-macchina-fedora-%OS_VERSION%.repo
 install:
   - duf
   - eza
@@ -6,3 +8,4 @@ install:
   - httpie
   - procs
   - tldr
+  - macchina
