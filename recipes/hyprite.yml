@@ -14,8 +14,8 @@ modules:
   - from-file: terminal-packages.yml
   - from-file: cli-utils.yml
 
-  - type: files
-    files:
-    - hyprland/usr: /usr
+  - usr: /usr
 
+  - from-file: scripts.yml
+  
   - type: signing

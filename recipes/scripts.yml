@@ -1,0 +1,5 @@
+type: script
+scripts:
+  - settheming.sh
+  - removeunprofessionalwallpapers.sh
+  - sethyprlandwaybarmodules.sh

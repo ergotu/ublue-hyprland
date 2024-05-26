@@ -4,36 +4,36 @@ install:
   - rofi-wayland
 
 # environment
-  # - power-profiles-daemon
-  # - xorg-x11-server-Xwayland
-  # - polkit
-  # - lxpolkit
-  # - xdg-user-dirs
-  # - dbus-tools
-  # - dbus-daemon
-  # - wl-clipboard
-  # - gnome-keyring
-  # - playerctl
-  # - qt5-qtwayland
-  # - qt6-qtwayland
-  # - vulkan-validation-layers
-  # - vulkan-tools
-  # - google-noto-emoji-fonts
-  # - gnome-disk-utility
+  - power-profiles-daemon
+  - xorg-x11-server-Xwayland
+  - polkit
+  - lxpolkit
+  - xdg-user-dirs
+  - dbus-tools
+  - dbus-daemon
+  - wl-clipboard
+  - gnome-keyring
+  - playerctl
+  - qt5-qtwayland
+  - qt6-qtwayland
+  - vulkan-validation-layers
+  - vulkan-tools
+  - google-noto-emoji-fonts
+  - gnome-disk-utility
   
 # sound
-  # - pavucontrol
-  # - wireplumber
-  # - pipewire
-  # - pamixer
+  - pavucontrol
+  - wireplumber
+  - pipewire
+  - pamixer
 
 # networking
-  # - network-manager-applet
-  # - NetworkManager-openvpn
-  # - NetworkManager-openconnect
-  # - bluez
-  # - bluez-tools
-  # - blueman
+  - network-manager-applet
+  - NetworkManager-openvpn
+  - NetworkManager-openconnect
+  - bluez
+  - bluez-tools
+  - blueman 
 
 # file manager
   - thunar
@@ -45,16 +45,16 @@ install:
   - unrar-free
 
 # screenshot
-  # - slurp
-  # - grim
+  - slurp
+  - grim
 
 # display
-  # - wlr-randr
-  # - wlsunset
-  # - brightnessctl
-  # - swaylock
-  # - swayidle
-  # - kanshi
+  - wlr-randr
+  - wlsunset
+  - brightnessctl
+  - swaylock
+  - swayidle
+  - kanshi
 
 # terminal
   # - foot

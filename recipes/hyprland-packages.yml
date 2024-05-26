@@ -9,7 +9,5 @@ install:
   - hyprlock
   - hypridle
   - xdg-desktop-portal-hyprland # desktop portal
-  - brightnessctl
   - eww-wayland
   - waybar
-  - wl-clipboard
