@@ -3,24 +3,24 @@
     "spacing": 4,
     "layer": "top",
     "modules-left": [
-        "sway/workspaces",
-        "sway/mode",
+        "hyprland/workspaces",
+        "hyprland/submap",
         "sway/scratchpad"
     ],
     "modules-center": [
-        "sway/window"
+        "hyprland/window"
     ],
     "modules-right": [
         "idle_inhibitor",
         "pulseaudio",
         "network",
-        "temperature", 
+        "temperature",
         "backlight",
         "battery",
         "clock",
         "tray"
     ],
-    "sway/mode": {
+    "hyprland/submap": {
         "format": "<span style=\"italic\">{}</span>"
     },
     "sway/scratchpad": {
