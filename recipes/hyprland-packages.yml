@@ -11,3 +11,4 @@ install:
   - xdg-desktop-portal-hyprland # desktop portal
   - eww-wayland
   - waybar
+  - cliphist
