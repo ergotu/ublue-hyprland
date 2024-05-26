@@ -14,8 +14,9 @@ modules:
   - from-file: terminal-packages.yml
   - from-file: cli-utils.yml
 
-  - usr: /usr
+  - files:
+    - usr: /usr
 
   - from-file: scripts.yml
-  
+
   - type: signing
