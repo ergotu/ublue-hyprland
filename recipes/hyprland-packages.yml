@@ -6,6 +6,7 @@ install:
   - hyprpaper # wallpaper util
   - hyprpicker # color
   - hyprshot # screenshot util
+  - hyprlock
   - hypridle
   - xdg-desktop-portal-hyprland # desktop portal
   - brightnessctl
