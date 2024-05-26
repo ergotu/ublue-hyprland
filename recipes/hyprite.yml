@@ -14,7 +14,8 @@ modules:
   - from-file: terminal-packages.yml
   - from-file: cli-utils.yml
 
-  - files:
+  - type: files
+    files:
     - usr: /usr
 
   - from-file: scripts.yml
