@@ -5,4 +5,4 @@ repos:
 install:
   - starship # prompt
   - fish # shell
-  ) alacritty
+  - alacritty
