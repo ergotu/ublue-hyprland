@@ -9,3 +9,4 @@ install:
   - procs
   - tldr
   - macchina
+  - fzf

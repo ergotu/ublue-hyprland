@@ -1,7 +1,14 @@
 /*Dracula theme based on the Purple official rofi theme*/
 
 configuration {
+    modi: "combi,ssh,run,filebrowser";
+    drun-match-field: "name, generic";
+    sidebar-mode: true;
     show-icons:      true;
+    fullscreen: false;
+    threads: 0;
+    matching: "fuzzy";
+    sorting-method: "fzf";
     display-drun:    "";
     disable-history: false;
 }

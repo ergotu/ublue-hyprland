@@ -12,3 +12,4 @@ install:
   - eww-wayland
   - waybar
   - cliphist
+  - grimblast
