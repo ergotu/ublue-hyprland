@@ -57,7 +57,7 @@ install:
   - kanshi
 
 # terminal
-  # - foot
+  - alacritty
 
 # notifications
   - dunst
@@ -70,3 +70,5 @@ install:
   - paper-icon-theme
   - breeze-icon-theme 
   - papirus-icon-theme
+
+# Browser
