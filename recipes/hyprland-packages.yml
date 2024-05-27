@@ -9,6 +9,8 @@ install:
   - hyprlock
   - hypridle
   - xdg-desktop-portal-hyprland # desktop portal
+  - xdg-desktop-portal-gtk
+  - xdg-desktop-portal
   - eww-wayland
   - waybar
   - cliphist
