@@ -10,3 +10,4 @@ install:
   - tldr
   - macchina
   - fzf
+  - translate-shell
