@@ -22,10 +22,10 @@ install:
   - gnome-disk-utility
   
 # sound
-  - pavucontrol
-  - wireplumber
-  - pipewire
-  - pamixer
+  # - pavucontrol
+  # - wireplumber
+  # - pipewire
+  # - pamixer
 
 # networking
   - network-manager-applet
