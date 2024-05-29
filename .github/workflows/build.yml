@@ -24,6 +24,21 @@ jobs:
           # !! Add your recipes here 
           - hyprite.yml
           - ublue-hyprland.yml
+
+      - name: Add yq (for reading recipe.yml)
+        uses: mikefarah/yq@v4.42.1
+
+      - name: Gather image data from recipe
+        run: |
+          echo "IMAGE_NAME=$(yq '.name' ./recipes/${{ matrix.recipe }})" >> $GITHUB_ENV
+          echo "IMAGE_MAJOR_VERSION=$(yq '.image-version' ./recipes/${{ matrix.recipe }})" >> $GITHUB_ENV
+          BASE_IMAGE=$(yq '.base-image' ./recipes/${{ matrix.recipe }})
+          echo "BASE_IMAGE_NAME=$(echo $BASE_IMAGE | sed 's/.*\/.*\///')" >> $GITHUB_ENV
+
+      - name: Verify base image
+        uses: EyeCantCU/cosign-action/verify@v0.2.2
+        with:
+          containers: ${{ env.BASE_IMAGE_NAME }}:${{ env.IMAGE_MAJOR_VERSION }}
           
     steps:       # the build is fully handled by the reusable github action
       - name: Build Custom Image
