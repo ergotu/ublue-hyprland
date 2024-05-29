@@ -13,6 +13,7 @@ install:
   - dbus-daemon
   - wl-clipboard
   - gnome-keyring
+  - pavucontrol
   - playerctl
   - qt5-qtwayland
   - qt6-qtwayland
@@ -22,9 +23,8 @@ install:
   - gnome-disk-utility
   
 # sound
-  - pavucontrol
-  # - wireplumber
-  # - pipewire
+  - wireplumber
+  - pipewire
   - pamixer
 
 # networking
@@ -70,5 +70,3 @@ install:
   - paper-icon-theme
   - breeze-icon-theme 
   - papirus-icon-theme
-
-# Browser
