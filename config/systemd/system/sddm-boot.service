@@ -9,7 +9,7 @@ Before=sddm.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/etc/sddm/sddm-useradd
+ExecStart=/etc/sddm/sddm-useradd
 RemainAfterExit=yes
 
 [Install]
