@@ -22,6 +22,8 @@ install:
   - google-noto-emoji-fonts
   - gnome-disk-utility
   - wlogout
+  - gammastep
+  - geoclue2
   
 # sound
   - wireplumber
