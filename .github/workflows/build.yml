@@ -23,6 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - hyprite.yml
+          - ublue-hyprland.yml
           
     steps:       # the build is fully handled by the reusable github action
       - name: Build Custom Image
