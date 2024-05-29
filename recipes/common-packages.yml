@@ -21,6 +21,7 @@ install:
   - vulkan-tools
   - google-noto-emoji-fonts
   - gnome-disk-utility
+  - wlogout
   
 # sound
   - wireplumber
