@@ -24,7 +24,8 @@ jobs:
           # !! Add your recipes here 
           - hyprite.yml
           - ublue-hyprland.yml
-
+          
+    steps:
       - name: Add yq (for reading recipe.yml)
         uses: mikefarah/yq@v4.42.1
 
@@ -39,8 +40,7 @@ jobs:
         uses: EyeCantCU/cosign-action/verify@v0.2.2
         with:
           containers: ${{ env.BASE_IMAGE_NAME }}:${{ env.IMAGE_MAJOR_VERSION }}
-          
-    steps:       # the build is fully handled by the reusable github action
+
       - name: Build Custom Image
         uses: blue-build/github-action@v1.5
         with:
