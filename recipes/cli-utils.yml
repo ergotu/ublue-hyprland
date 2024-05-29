@@ -11,3 +11,4 @@ install:
   - macchina
   - fzf
   - translate-shell
+  - zoxide
