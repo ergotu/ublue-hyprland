@@ -30,6 +30,8 @@ install:
   - wireplumber
   - pipewire
   - pamixer
+  - pipewire-pulse
+  - pipewire-alsa
 
 # networking
   - network-manager-applet
