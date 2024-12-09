@@ -42,7 +42,7 @@ jobs:
       #     containers: ${{ env.BASE_IMAGE_NAME }}:${{ env.IMAGE_MAJOR_VERSION }}
 
       - name: Build Custom Image
-        uses: blue-build/github-action@v1.6
+        uses: blue-build/github-action@v1.8
         with:
           recipe: ${{ matrix.recipe }}
           cosign_private_key: ${{ secrets.SIGNING_SECRET }}
